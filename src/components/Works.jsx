@@ -7,7 +7,7 @@ import { SectionWrapper } from '../higherorder';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, website_link }) => {
 
 return (
   <motion.div
@@ -26,6 +26,7 @@ return (
       className='w-full h-full object-cover rounded-2xl'
       />
       <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-2'>
+
         {/* for github link */}
         <div
           onClick={() => window.open(source_code_link, "_blank")}
@@ -40,7 +41,7 @@ return (
 
         {/* for live site */}
         <div
-          onClick={() => window.open(source_code_link, "_blank")}
+          onClick={() => window.open(website_link, "_blank")}
           className='black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer'
         >
           <img 

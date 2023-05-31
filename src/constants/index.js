@@ -188,25 +188,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Project Mgt Webapp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A miniature version of Jira, which has all the fuctionalities of signing up, logging in, creating tasks, and delegating tasks to various member of the team.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ajibade-dev/project-mgt-webapp",
+      website_link: "https://project-mgt-webapp.vercel.app/",
     },
     {
       name: "Job IT",
@@ -228,27 +229,29 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      website_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "React Dashboard",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive and easy dashboard built with react and syncfusion, a third party app that helps in building fast and resuable dashboards. Includes functionality like charts, kanban board, color picker, text editor amongst others..",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "syncfusion",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      website_link: "https://react-dashboard-webapp.vercel.app/",
+      source_code_link: "https://github.com/ajibade-dev/React-Dashboard-App",
     },
   ];
   
