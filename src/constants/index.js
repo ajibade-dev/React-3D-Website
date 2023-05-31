@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    stream,
   } from "../assets";
   
   export const navLinks = [
@@ -210,26 +211,26 @@ import {
       website_link: "https://project-mgt-webapp.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "React Card Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is a fun and interactive card game that incoporates the concept of state management and retention in react to match identical cards together when flipped.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-      website_link: "https://github.com/",
+      source_code_link: "https://github.com/ajibade-dev/react-memory-game",
+      website_link: "https://react-memory-game-sigma.vercel.app/",
     },
     {
       name: "React Dashboard",

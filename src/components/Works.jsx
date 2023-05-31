@@ -2,7 +2,7 @@ import React from 'react'
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { github } from '../assets';
+import { github, stream } from '../assets';
 import { SectionWrapper } from '../higherorder';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -45,7 +45,7 @@ return (
           className='black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer'
         >
           <img 
-          src={github}
+          src={stream}
           alt="github" 
           className='w-1/2 h-1/2 object-contain' />
         </div>
